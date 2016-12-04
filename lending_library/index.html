@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>the library</h1>
+    <button  type="button" onclick="signin()">Log In</button>
+    <button  type="button" onclick="signup()">Sign Up</button>
+    
+     <p id='disp'></p> 
+     <p id='disp1'></p> 
+
+
+    <div id="logon">
+      <p>Login with your ID/password</p>
+      user ID: <input id="login">
+      Password: <input id="password">
+      <button type="button" onclick="logged()">Sign in</button>
+    </div>
+
+
+    <div id="newuser">
+      <p>Create your user ID/password</p>
+      user ID: <input id="newlogin">
+      Password: <input id="newpassword">
+      <button type="button" onclick="createUser()">Sign Up</button>
+    </div>
+
+
+
+    <p>search for a book by author's by name</p>
+    <input id="authorSearch" >
+    <button type="button" id="autSearch">search by author</button>
+   
+    <ol id='result'>    </ol>
+  </main>
+
+  
+  <footer>
+    <p>wmdd 4820 lending library 2016</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
